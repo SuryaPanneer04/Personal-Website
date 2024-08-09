@@ -4,6 +4,34 @@ html{
     margin: 0;
     padding: 0;
 }
+         
+      /* Scroll up arrow button */
+
+.scroll_arrow{
+  margin-left: 30px;
+  margin-top: -100px;
+  font-weight: 500;
+}
+#Scroll_btn{
+  border: none;
+   outline: none;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+
+  size-adjust: 100px;
+  background-color: rgb(33, 33, 33);
+  cursor: pointer;
+}
+#Scroll_btn>a>i{
+  color: white;
+  font-size: large;
+}
+
+  /* scroll_arrow end */
+
+    /* top navbar */
 .navbar{
     background-color: rgb(255, 255, 255);
     height: 50px;
@@ -55,7 +83,7 @@ html{
     width: 100%;
 }
 }
-
+     /* Home page */
 .Home{
   padding-top: 70px;
   margin-left: 200px;
@@ -125,22 +153,31 @@ html{
     margin-left: 8px;
 }
 
-/* Page section */
+/* Page height section */
 
 #Home {
   height: 700px;
 }
-#about{
+.about{
   height: 700px;
 }
-#skills{
+.skills{
   height: 700px;
 
+}
+#qualification{
+  height: 650px;
+}
+#projects{
+  height: 700px;
+}
+#contact{
+  height: 700px;
 }
 
  /* About */
 .about{
-  padding-top: 60px;
+  padding-top: 50px;
   margin-left: 180px;
   display: flex;
   font-weight: 500;
@@ -158,7 +195,7 @@ html{
 /* Skills */
 
 .skills{
-  padding-top: 60px;
+  padding-top: 80px;
   font-weight: 500;
 }
 
@@ -197,4 +234,149 @@ margin-left:650px ;
   font-size: larger;
   text-align: center;
 }
+
+   /* qulification */
+
+.qualification{
+
+  padding-top: 90px;
+  font-weight: 500;
+}
+.about_qualification{
+  float: left;
+  margin-top: 180px;
+  margin-left: 90px;
+  font-weight: 500;
+  font-size: larger;  
+  display: inline-flex;
+  gap: 160px;
+}
+.about_qul_data>ul{
+   list-style:none;
+}
+.about_qul_data{
+font-size:large;
+text-align: center;
+}
+
+/* End qulification */
+
+/* project */
+.projects{
+  padding-top: 90px;
+  font-weight: 500;
+}
+.about_projects {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+.video-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.video-item video {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.Project-data {
+  flex: 2;
+}
+
+.Project-data p {
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 5px;
+
+}
+/* end projects */
+
+/* contactus */
+.contact{
+padding-top: 100px;
+font-weight: 500;
+}
+
+.about_projects{
+  align-items: center;
+}
+.container{
+  margin-top: 100px;
+}
+form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 19px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btnContact {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-size: 18px;
+}
+
+.btnContact:hover {
+  background-color: #0056b3;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-md-4, .col-md-6 {
+  flex: 0 0 auto;
+  width: 48%;
+}
+
+/* end contact */
 

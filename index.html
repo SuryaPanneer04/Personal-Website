@@ -25,7 +25,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2 active" aria-current="page" href="#Home">Home</a>
+                  <a class="nav-link mx-lg-2 " aria-current="page" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link mx-lg-2 " href="#about">About</a>
@@ -34,10 +34,13 @@
                     <a class="nav-link mx-lg-2" href="#skills">Skills</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mx-lg-2" href="#">Qulification</a>
+                    <a class="nav-link mx-lg-2" href="#qualification">Qualification</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mx-lg-2" href="#">Projects</a>
+                    <a class="nav-link mx-lg-2" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" href="#contact">Contact US</a>
                   </li>
               </ul>
             </div>
@@ -45,9 +48,10 @@
         </div>
       </nav>
       <!-- Header End -->
-    
+      
     <!-- Home page start -->
-    <div class="Home page " id="Home">
+    <section id="Home">
+    <div class="Home section " id="Home">
         <div class="row flex-lg-row-reverse align-items-center py-5">
             <div class="col-10 col-sm-8 col-lg-6">
                 <img src="./asset/img/web-image.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="900" loading="lazy">
@@ -79,16 +83,20 @@
             </div>
         </div>
     </div>
+    <div class="scroll_arrow">
+      <button id="Scroll_btn"><a href="#Home"><i class="uil uil-arrow-up"></i></a></button>
+        </div>
+  </section> 
     <!-- Home page End -->
     
     <!-- About Start -->
+   
                 <section class="about section " id="about">
-                    
                   <div class="row  align-items-center py-5">
                     <div class="col-10 col-sm-8 col-lg-6">
                         <img src="./asset/img/myImage.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="600" height="900" loading="lazy">
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-6">
                         <div class="text-container mb-3">
                           <h2 class="display-5 fw-bold text-body-emphasis lh-1">About me</h2> 
                             <p class="lead  ">
@@ -103,6 +111,7 @@
                     </div>
                 </div>
                 </section>
+              
     <!-- About End -->
     
     <!-- Skills -->
@@ -179,16 +188,119 @@
     </div> 
 
     </section> 
-   
+      <!-- skills end -->
+        
 
- 
-   
+      <!-- Qualifiaction  -->
+      <section class="qualification" id="qualification">
+        <div class="section_title">
+          <h1>Qualification</h1>
+        </div>
+        
+        <div class="about_qualification">
+          <div class="about_qul_data">  
+            <ul  > 
+              <img src="./asset/img/Education.png" width="50" height="50">
+              <div class="item1">
+                <li>
+                  <h3>College</h3>
+                  <p>Ayya Nadar Janaki Ammal College <br>
+                    Sivakasi -000000 <br>
+                    <span id="italic">CGP : 7.24</span>
+                  </p>
+                  <h5>May-2024</h5>
+                </li>
+              </div>
+            </ul>
+             </div>
+             <div class="about_qul_data">
+              <ul>
+              <img src="./asset/img/school boy.png" width="50" height="50">
+              <div class="item2">
+                <li>
+                  <h3>HSC</h3>
+                  <p>S.H.N Edward Higher Secondary School<br>
+                    Sattur - 626203<br>
+                    <span id="italic">Percentage : 64 %</span>
+                  </p>
+                  <h5>April-2021</h5>
+                </li>
+              </div>
+            </ul>
+            </div>
+            <div class="about_qul_data">
+              <ul>
+              <img src="./asset/img/school boy.png" width="50" height="50">
+              <div class="item3">
+                   <h3>SSLC</h3>
+                  <p>S.H.N Edward Higher Secondary School<br>
+                    Sattur - 626203<br>
+                    <span id="italic">Percentage : 53 %</span>
+                  </p>
+                  <h5>April-2019</h5>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+        
+      </section>
+     
+        <!-- projects -->
+        <section class="projects" id="projects">
+          <div class="section_title">
+            <h1>About Project</h1>
+          </div>
+          <div class="about_projects"> 
+            <div class="video-item">
+               <video width="500" height="300" controls>
+                 <source  src="./asset/video/mmmis.mp4"  alt="mmmis" type="video/mp4" >
+               </video>  
+             </div>
+             <div class="Project-data">
+                 <p> The Project entitled as “Mithran Matchworks Management Information System (MMMIS)” is a robust online platform designed streamline to manage and run effective matchworks businesses. This  project has  admin and manager module to control over the new users, customers and employees. And the product manufactured through our organization was specified in the product tab.
+                   This project has lot of specifications like sales management, employee management, production management and salary management. With the above specifications admin can easily navigate the managers and employees in their office and home. In MMMIS, the productions are frequently noted and updated at the system. The employees, customers and users can give their feedback through the feedback tab. So that admin easily understand them and take respective actions to run their organization successfully.
+          </p>
+             </div>
+      </div>   
+    </section>
+      <!-- End projects -->
 
+         <!-- contact us -->
+          <section class="contact" id="contact">
+            <div class="section_title">
+              <h1>Contact Us</h1>
+            </div>
+            <div class="container contact-form" style="font-family: 'IBM Plex Sans', sans-serif;">
+              <form method="post" action="">
+                  <h3>Drop Us a Message</h3>
+                 <div class="row">
+                      <div class="col-md-4">
+                          <div class="form-group">
+                              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" onkeydown="return alphaOnly(event);" required/>
+                          </div>
+                          <div class="form-group ">
+                              <input type="email" name="txtEmail" class="form-control" placeholder="Your Email *" value="" required />
+                          </div>
+                          <div class="form-group">
+                              <input type="tel" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" minlength="10" maxlength="10" required />
+                          </div>
+                          <div class="form-group" >
+                              <input type="submit" name="btnSubmit" class="btnContact"   value="Send Message" />
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group" >
+                              <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;" required></textarea>
+                          </div>
+                      </div>
+                  </div>
+              </form>
+  </div>
+          </section>
 
-
-
-
+      
+     <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
- 
   </body>
 </html>
