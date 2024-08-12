@@ -304,7 +304,7 @@ text-align: center;
 
 /* contactus */
 .contact{
-padding-top: 100px;
+padding-top: 90px;
 font-weight: 500;
 }
 
@@ -312,7 +312,7 @@ font-weight: 500;
   align-items: center;
 }
 .container{
-  margin-top: 100px;
+  margin-top: 90px;
 }
 form {
   background-color: #f7f7f7;
@@ -380,3 +380,113 @@ textarea.form-control {
 
 /* end contact */
 
+
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+      text-align: center;
+  }
+
+  .offcanvas-header {
+      text-align: center;
+  }
+
+  .offcanvas-body ul {
+      padding-left: 0;
+      list-style: none;
+  }
+
+  .offcanvas-body ul li {
+      margin-bottom: 15px;
+  }
+
+  .home .row {
+      flex-direction: column-reverse;
+      text-align: center;
+  }
+
+  .home img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .about .row {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .text-container h1,
+  .text-container h2 {
+      font-size: 28px;
+  }
+
+  .text-container .lead {
+      font-size: 16px;
+  }
+
+  .skills .section_about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .skills .about_data {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .qualification .about_qualification {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .qualification .about_qul_data {
+      width: 100%;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .projects .about_projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .projects .video-item {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  .projects .Project-data {
+      text-align: center;
+  }
+
+  .contact .container {
+      text-align: center;
+  }
+
+  .contact .contact-form {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .contact .form-group {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+
+  .contact .btnContact {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+  }
+}
