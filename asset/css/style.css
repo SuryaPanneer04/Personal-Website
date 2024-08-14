@@ -384,6 +384,9 @@ textarea.form-control {
   .scroll_arrow{
     visibility: hidden;
   }
+  .section_title>h1{
+    font-style: italic;
+  }
   html, body {
     margin: 0;
     padding: 0;
@@ -405,14 +408,9 @@ textarea.form-control {
     font-size: 1rem;
   }
 
-  /* Scroll Button */
-  #Scroll_btn {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-  }
-
+  
   /* Home Page */
+
   .Home {
     padding-top: 50px;
     margin-left: 10px;
@@ -429,17 +427,17 @@ textarea.form-control {
 
   /* About Section */
   .about {
-    padding-top: 30px;
+    padding-top: -30px;
     margin-left: 10px;
     flex-direction: column;
     text-align: center;
   }
-  /* .text-container>h3{
-    margin-left: 90px;
+  .text-container>h3{
+    margin-left: 30px;
   }
   .text-container>h2{
-    margin-left: 140px;
-  } */
+    margin-left: 40px;
+  }
 
   /* Skills Section */
   .skills {
@@ -452,23 +450,27 @@ textarea.form-control {
     margin-top: 20px;
     flex-direction: column;
     text-align: center;
-    gap: 20px;
+    gap: 25px;
+    font-size: larger;
   }
-  .about_data {
-    list-style-type: none;
+  .section_about>.about_data{
+      margin-left: -65px;
   }
   .about_data > h2 {
     font-size: 1.5rem;
   }
+  .section_declaration{
+    padding-top: 950px;
+  }
 
   /* Qualification Section */
   .qualification {
-    padding-top: 490px;
+    padding-top: 495px;
   }
 
   .about_qualification {
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: -10px;
     flex-direction: column;
     text-align: center;
     gap: 15px;
@@ -501,7 +503,7 @@ textarea.form-control {
 
   /* Contact Section */
   .contact {
-    padding-top: 1100px;
+    padding-top: 1150px;
   }
 
   .container {
