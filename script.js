@@ -32,3 +32,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 });
+
+
+
+//navbar side bar hidden
+document.querySelectorAll('#nav-close').forEach(link => {
+    link.addEventListener('click', function() {
+        var offcanvasElement = document.getElementById('offcanvasNavbar');
+        var bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+        bsOffcanvas.hide();
+    });
+});
+
+
+//scroll bar view
+
