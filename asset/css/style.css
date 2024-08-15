@@ -192,7 +192,7 @@ list-style: none;
 color: white;
 border-radius: 20px;
 height: 40px;
-width: 100px;
+width: 110px;
 }
 
 /* Skills */
@@ -384,9 +384,24 @@ width: 48%;
 /* end contact */
 
 @media (max-width: 600px) {
-.scroll_arrow{
-  visibility: hidden;
-}
+  #Home {
+    height: 600px;
+    }
+    .about{
+    height: 730px;
+    }
+    .skills{
+    height: 750px;
+    
+    }
+.scroll_arrow,#Scroll_btn{
+    width: 35px;
+    height: 40px;
+    border-radius: 25px;
+    position: fixed; /* or absolute, depending on your layout */
+    top: 550px;      /* Set the distance from the top */
+    bottom: 0;       /* Set the distance from the bottom */
+  }
 .section_title>h1{
   font-style: italic;
   color: #000000;
@@ -449,6 +464,7 @@ html, body {
   margin-left: 65px;
 }
 .text-container>h2{
+  padding-top: 20px;
   margin-left: 115px;
 }
 
@@ -460,7 +476,7 @@ html, body {
 }
 .about_data>ul{
   padding-top: 15px;
-  list-style-type:decimal;
+  /* list-style-type:; */
   text-align:justify ;
   align-items: center ;
   }
@@ -494,6 +510,7 @@ html, body {
 }
 .section_declaration{
   padding-top: 950px;
+  color: #161616;
 }
 
 /* Qualification Section */
@@ -520,7 +537,7 @@ html, body {
 }
 
 .about_projects {
-  margin-top: -35px;
+  margin-top: -0px;
   flex-direction: column;
 
 }
