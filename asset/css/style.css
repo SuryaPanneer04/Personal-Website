@@ -386,6 +386,7 @@ width: 48%;
 }
 .section_title>h1{
   font-style: italic;
+  color: #000000;
 }
 html, body {
   margin: 0;
@@ -417,7 +418,16 @@ html, body {
   flex-direction: column;
   text-align: center;
 }
+.row>div>img{
+  margin-left: 35px;
+}
+.text-container>div>h1{
+  margin-left: 95px;
 
+}
+.contact-items>a{
+   margin-left: 35px;
+}
 /* Section Titles */
 .section_title {
   margin-left: 0;
@@ -433,19 +443,38 @@ html, body {
   text-align: center;
 }
 .text-container>h3{
-  margin-left: 30px;
+  margin-left: 65px;
 }
 .text-container>h2{
-  margin-left: 40px;
+  margin-left: 115px;
 }
 
 /* Skills Section */
 .skills {
-  padding-top: 70px;
+  padding-top: 110px;
   flex-direction: column;
   text-align: center;
 }
+.about_data>ul{
+  padding-top: 15px;
+  list-style-type:none;
+  
+  }
+  .about_data>h2{
+    font-size: large;
+    }
+  .about_data>ul>.item1{
+    margin-left: -35px;
+    }
+  .about_data>ul>.item2{
+  padding-top: 10px;
+  margin-left: -40px;
+  }
+  .about_data>ul>.item3{
+  padding-top: 10px;
+  padding-left: -45px;
 
+  }
 .section_about {
   margin-top: 20px;
   flex-direction: column;
@@ -470,7 +499,7 @@ html, body {
 
 .about_qualification {
   margin-top: 20px;
-  margin-left: -10px;
+  margin-left: 12px;
   flex-direction: column;
   text-align: center;
   gap: 15px;
@@ -502,7 +531,7 @@ html, body {
 
 /* Contact Section */
 .contact {
-  padding-top: 1150px;
+  padding-top: 1100px;
 }
 
 .container {
