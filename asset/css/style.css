@@ -451,7 +451,7 @@ html, body {
 
 /* Skills Section */
 .skills {
-  padding-top: 110px;
+  padding-top: 150px;
   flex-direction: column;
   text-align: center;
 }
@@ -494,7 +494,7 @@ html, body {
 
 /* Qualification Section */
 .qualification {
-  padding-top: 495px;
+  padding-top: 555px;
 }
 
 .about_qualification {
@@ -511,12 +511,12 @@ html, body {
 
 /* Projects Section */
 .projects {
-  padding-top:690px;
+  padding-top:750px;
   text-align: center;
 }
 
 .about_projects {
-  margin-top: -25px;
+  margin-top: -35px;
   flex-direction: column;
 }
 
