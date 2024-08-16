@@ -180,7 +180,7 @@ height: 700px;
 
 /* About */
 .about{
-padding-top: 50px;
+padding-top: 30px;
 margin-left: 150px;
 display: flex;
 font-weight: 500;
@@ -198,7 +198,7 @@ width: 110px;
 /* Skills */
 
 .skills{
-padding-top: 80px;
+padding-top: 100px;
 font-weight: 500;
 }
 
@@ -425,7 +425,7 @@ button:hover {
 /* end popup */
 
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
 .scroll_arrow{
     /* width: 35px;
@@ -437,6 +437,10 @@ button:hover {
     visibility: hidden;
 
   }
+  .home_scroll{
+    visibility: hidden;
+  }
+
 .section_title>h1{
   font-style: italic;
   color: #000000;
@@ -502,6 +506,15 @@ html, body {
   padding-top: 20px;
   margin-left: 115px;
 }
+.Resume>a>button{
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  border-radius: 20px;
+  height: 45px;
+  width: 130px;
+  }
 
 /* Skills Section */
 .skills {
