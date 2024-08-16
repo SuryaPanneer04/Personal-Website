@@ -383,24 +383,59 @@ width: 48%;
 
 /* end contact */
 
+/* popup */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 20%;
+}
+/* OK Button */
+button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* end popup */
+
+
 @media (max-width: 600px) {
-  #Home {
-    height: 600px;
-    }
-    .about{
-    height: 730px;
-    }
-    .skills{
-    height: 750px;
-    
-    }
-.scroll_arrow,#Scroll_btn{
-    width: 35px;
+
+.scroll_arrow{
+    /* width: 35px;
     height: 40px;
     border-radius: 25px;
     position: fixed; /* or absolute, depending on your layout */
-    top: 550px;      /* Set the distance from the top */
-    bottom: 0;       /* Set the distance from the bottom */
+    /* top: 550px;      /* Set the distance from the top */
+    /* bottom: 0;       Set the distance from the bottom */ 
+    visibility: hidden;
+
   }
 .section_title>h1{
   font-style: italic;
@@ -572,6 +607,16 @@ html, body {
   padding: 10px;
   font-size: 16px;
 }
+
+/* popup */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+}
+
 }
 
 
