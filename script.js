@@ -46,8 +46,6 @@ document.querySelectorAll('#nav-close').forEach(link => {
 
 
 //email message
-
-
 const form = document.querySelector('.contact-popup');
 function sendmsg(e) {
     e.preventDefault();
