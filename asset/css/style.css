@@ -603,7 +603,8 @@ html, body {
 
 /* Contact Section */
 .contact {
-  padding-top: 1100px;
+  padding-top: 1150px;
+  display: grid;
 }
 
 .container {
