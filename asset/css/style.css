@@ -495,13 +495,14 @@ html, body {
 
 /* About Section */
 .about {
-  padding-top: -50px;
+  padding-top: -150px;
   margin-left: 10px;
   flex-direction: column;
   text-align: center;
 }
 .text-container>h3{
   margin-left: 65px;
+  color: #343333;
 }
 .text-container>h2{
   padding-top: 20px;
@@ -556,6 +557,9 @@ html, body {
 }
 .about_data > h2 {
   font-size: 1.5rem;
+  color: #343333;
+  text-decoration: underline;
+
 }
 .section_declaration{
   padding-top: 950px;
@@ -578,7 +582,18 @@ html, body {
   text-align: center;
   width: 100%;
 }
-
+.item1>li>h3{
+  color: #343333;
+  text-decoration:underline;
+}
+.item2>li>h3{
+  color: #343333;
+  text-decoration: underline;
+}
+.item3>li>h3{
+  color: #343333;
+  text-decoration: underline;
+}
 /* Projects Section */
 .projects {
   padding-top:750px;
