@@ -438,9 +438,9 @@ width: 48%;
     visibility: hidden;
 
   }
-  .home_scroll{
+  /* .home_scroll{
     visibility: hidden;
-  }
+  } */
 
 .section_title>h1{
   font-style: italic;
@@ -496,7 +496,7 @@ html, body {
 
 /* About Section */
 .about {
-  padding-top: -150px;
+  padding-top: 20px;
   margin-left: 10px;
   flex-direction: column;
   text-align: center;
